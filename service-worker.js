@@ -4,6 +4,15 @@ const toCache = [
   '/manifest.webmanifest',
   '/assets/js/register.js',
   '/assets/images/icon-192x192.png',
+  "/assets/js/register.js",
+  "/assets/css/bootstrap.css",
+  "/assets/css/bootstrap.css.map",
+  "/assets/css/styles.css",
+  "/assets/js/bootstrap.js",
+  "/assets/js/bootstrap.js.map",
+  "/assets/js/jquery-3.3.1.slim.min.js",
+  "/assets/js/script.js",
+  "/index.html",
 ];
 self.addEventListener("beforeinstallprompt", (e) => {
   e.preventDefault();
